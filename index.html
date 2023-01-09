@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/sanitize.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <script src="./app.js" defer></script>
+  <title>Dashboard</title>
+</head>
+<body>
+  <div class="star-modal"><img src="./images/star-icon.svg" alt="" class="icon">This project has been added to your favorites!</div>
+  <header>
+      <div class="search-bar"><img src="./images/search-icon.svg" alt="" class="icon"><input type="search" placeholder="Search..."></div>
+      <div class="notifications-bar">
+        <div>
+          <img src="./images/notif-icon.svg" alt="" class="icon">
+          <div class="profile-picture__small"></div>
+        </div>
+        <div class="bold-text">Thomas</div>
+      </div>
+      <div class="greetings">
+        <div class="profile-picture"></div>
+        <div>Hi there,</div>
+        <div class="bold-text">Thomas</div>
+      </div>
+      <div class="action-buttons">
+        <button>New</button>
+        <button>Upload</button>
+        <button>Share</button>
+      </div>
+  </header>
+  
+  
+
+  <aside>
+    <div class="website-title"><img class="logo" src="./images/dashboard-icon.svg" alt="dashboard logo"><h1><a href="">Dashboard</a></h1></div>
+    <ul>
+      <li><a href=""><img class="icon" src="./images/home-icon.svg" alt="">Home</a></li>
+      <li><a href=""><img class="icon" src="./images/profile-icon.svg" alt="">Profile</a></li>
+      <li><a href=""><img src="./images/message-icon.svg" alt="" class="icon">Messages</a></li>
+      <li><a href=""><img src="./images/history-icons.svg" alt="" class="icon">History</a></li>
+      <li><a href=""><img src="./images/tasks-icon.svg" alt="" class="icon">Tasks</a></li>
+      <li><a href=""><img src="./images/communities-icon.svg" alt="" class="icon">Communities</a></li>
+    </ul>
+    <ul>
+      <li><a href=""><img src="./images/settings-icon.svg" alt="" class="icon">Settings</a></li>
+      <li><a href=""><img src="./images/support-icon.svg" alt="" class="icon">Support</a></li>
+      <li><a href=""><img src="./images/privacy-icon.svg" alt="" class="icon">Privacy</a></li>
+    </ul>
+  </aside>
+
+  <main>
+    <div class="projects-container">
+      <h2>Projects</h2>
+      <div class="content-container">
+        <div class="project-card">
+          <h3>Sign-up Page</h3>
+          <img src="./images/projects-thumbnails/signup-thumbnail.jpg" alt="" class="thumbnail">
+          <p>This is a functionnal sign-up page for a fictionnal company, done for The Odin Project.</p>
+          <div>
+            <a href="https://stagnant-sys.github.io/signup-form/"><img src="./images/preview-icon.svg" alt="" class="icon" title="See live site"></a>
+            <img src="./images/star-icon.svg" alt="" class="icon star-button" title="Add to favorites">
+            <a href="https://github.com/stagnant-sys/signup-form"><img src="./images/github-icon.svg" alt="" class="icon" title="Source on GitHub"></a>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3>Landing Page</h3>
+          <img src="https://github.com/stagnant-sys/Frontend-Challenges/blob/main/L1-huddle-landing-page/solution-screenshots/desktop-view.png?raw=true" alt="" class="thumbnail">
+          <p>A responsive landing page, done for Frontend Mentor.</p>
+          <div>
+            <a href=https://stagnant-sys.github.io/Frontend-Challenges/L1-huddle-landing-page/"><img src="./images/preview-icon.svg" alt="" class="icon" title="See live site"></a>
+            <img src="./images/star-icon.svg" alt="" class="icon star-button" title="Add to favorites">
+            <a href="https://github.com/stagnant-sys/Frontend-Challenges/tree/main/L1-huddle-landing-page" target="_blank"><img src="./images/github-icon.svg" alt="" class="icon" title="Source on GitHub"></a>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3>Rating Component</h3>
+          <img src="./images/projects-thumbnails/rating-thumbnail.png" alt="" class="thumbnail">
+          <p>Interactive rating card component, done for Frontend Mentor.</p>
+          <div>
+            <a href="https://stagnant-sys.github.io/Frontend-Challenges/L1-interactive-rating-component/"><img src="./images/preview-icon.svg" alt="" class="icon" title="See live site"></a>
+            <img src="./images/star-icon.svg" alt="" class="icon star-button" title="Add to favorites">
+            <a href="https://github.com/stagnant-sys/Frontend-Challenges/tree/main/L1-interactive-rating-component"><img src="./images/github-icon.svg" alt="" class="icon" title="Source on GitHub"></a>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3>Undercurrent</h3>
+          <img src="./images/projects-thumbnails/undercurrent-thumbnail.png" alt="" class="thumbnail">
+          <p>A review website with "aesthetics" in mind.</p>
+          <div>
+            <a href="https://stagnant-sys.github.io/undercurrent/"><img src="./images/preview-icon.svg" alt="" class="icon" title="See live site"></a>
+            <img src="./images/star-icon.svg" alt="" class="icon star-button" title="Add to favorites">
+            <a href="https://github.com/stagnant-sys/undercurrent"><img src="./images/github-icon.svg" alt="" class="icon" title="Source on GitHub"></a>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3>Etch-a-sketch</h3>
+          <img src="./images/projects-thumbnails/etch-a-sketch-thumbnail.jpg" alt="" class="thumbnail">
+          <p>Etch-a-skect project with flexible size, done for The Odin Project.</p>
+          <div>
+            <a href="https://stagnant-sys.github.io/etch-a-sketch/"><img src="./images/preview-icon.svg" alt="" class="icon" title="See live site"></a>
+            <img src="./images/star-icon.svg" alt="" class="icon star-button" title="Add to favorites">
+            <a href="https://github.com/stagnant-sys/etch-a-sketch"><img src="./images/github-icon.svg" alt="" class="icon" title="Source on GitHub"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="announcements-container">
+      <h2>Announcements</h2>
+      <div class="announcements-card">
+        <div class="announcement">
+          <h3>Site Update</h3>
+          <p>Vivamus et est quis nisl auctor laoreet. Nullam sit amet lorem sit amet nisl fermentum vulputate quis nec eros. Sed gravida velit non nibh bibendum congue.</p>
+        </div>
+        <div class="announcement">
+          <h3>Important Announcement</h3>
+          <p>Pellentesque imperdiet leo ut sem lobortis semper. Etiam tempus pharetra lacus ut varius. Quisque quis metus eu felis semper consectetur sodales a ligula.</p>
+        </div>
+        <div class="announcement">
+          <h3>Updated Privacy Policy</h3>
+          <p>Ut tristique, arcu vitae posuere viverra, quam risus congue dolor, vitae porttitor lorem tortor eu risus. Cras mauris ex, pretium nec eleifend a, maximus sit amet ante.</p>
+        </div>
+      </div>
+    </div>
+    <div class="trending-container">
+      <h2>Trending</h2>
+      <div class="trending-card">
+        <div class="trending">
+          <div class="trending-image"><img src="https://pbs.twimg.com/profile_images/1414990564408262661/r6YemvF9_400x400.jpg" alt=""></div>
+          <div class="trending-text">
+            <a href="https://twitter.com/github"><h3>@github</h3></a>
+            <p>GitHub platform</p>
+          </div>
+        </div>
+        <div class="trending">
+          <div class="trending-image"><img src="https://pbs.twimg.com/profile_images/853541927781904384/LKvUgs4u_400x400.jpg" alt=""></div>
+          <div class="trending-text">
+            <a href="https://twitter.com/theodinproject"><h3>@TheOdinProject</h3></a>
+            <p>The best course to learn web development !</p>
+          </div>
+        </div>
+        <div class="trending">
+          <div class="trending-image"><img src="https://pbs.twimg.com/profile_images/1414990564408262661/r6YemvF9_400x400.jpg" alt=""></div>
+          <div class="trending-text">
+            <a href="https://twitter.com/mozdevnet"><h3>@MozDevNet</h3></a>
+            <p>Most essential documentation for web developers.</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </main>
+</body>
+</html>

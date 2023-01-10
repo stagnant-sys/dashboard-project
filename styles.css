@@ -221,6 +221,8 @@ main {
     justify-self: center; }
   .project-card:hover {
     transform: translate(-3px, -3px); }
+  .project-card .icon:hover {
+    transform: scale(1.1); }
 
 .announcements-container {
   grid-area: announcements;

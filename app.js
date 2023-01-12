@@ -6,7 +6,7 @@ function openModal() {
   MODAL.classList.add('open-modal');
   setTimeout(() => {
     MODAL.classList.remove('open-modal');
-  }, 4000)
+  }, 4000);
 }
 
 for (let i = 0; i < starButton.length; i++) {
@@ -16,5 +16,5 @@ for (let i = 0; i < starButton.length; i++) {
 for (let i = 0; i < starButton.length; i++) {
   starButton[i].addEventListener('click', function() {
     starButton[i].src = './images/star-icon-clicked.svg'
-  })
+  });
 }
